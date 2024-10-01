@@ -37,7 +37,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="プロトタイプ" color="#cccc00" meeting="false" start="2024-09-12" duration="30" complete="23" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+        <task id="0" name="プロトタイプ" color="#cccc00" meeting="false" start="2024-09-12" duration="30" complete="28" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
             <task id="5" name="制作を進行する上での資料作り" color="#ffff99" meeting="false" start="2024-09-12" duration="30" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[気づいたら随時追加するようにする]]>
@@ -45,9 +45,9 @@
             </task>
             <task id="9" name="モーションの確認" color="#ff9999" meeting="false" start="2024-09-12" duration="2" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true"/>
             <task id="21" name="バーサーカーモードのシーンを追加" color="#ff9999" meeting="false" start="2024-09-12" duration="2" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true"/>
-            <task id="6" name="プレイヤーの作成" color="#ff9999" meeting="false" start="2024-09-17" duration="18" complete="69" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="6" name="プレイヤーの作成" color="#ff9999" meeting="false" start="2024-09-17" duration="18" complete="76" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true">
                 <task id="10" name="歩き" color="#ff9999" meeting="false" start="2024-09-17" duration="1" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-                <task id="11" name="走り" color="#ff9999" meeting="false" start="2024-09-17" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+                <task id="11" name="走り" color="#ff9999" meeting="false" start="2024-09-17" duration="1" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
                 <task id="16" name="攻撃" color="#ff9999" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true">
                     <task id="14" name="攻撃(通常)" color="#ff9999" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true"/>
                     <task id="17" name="攻撃コンボ" color="#ffff99" meeting="false" start="2024-09-18" duration="2" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true"/>
@@ -60,7 +60,7 @@
                 </task>
             </task>
             <task id="7" name="シーン遷移" color="#ff9999" meeting="false" start="2024-09-24" duration="1" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" priority="4" expand="true"/>
-            <task id="30" name="ルートモーション付きのモーションを追加" color="#ff9999" meeting="false" start="2024-09-30" duration="2" complete="0" thirdDate="2024-09-30" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="ルートモーション付きのモーションを追加" color="#ff9999" meeting="false" start="2024-09-30" duration="2" complete="100" thirdDate="2024-09-30" thirdDate-constraint="0" expand="true"/>
             <task id="23" name="攻撃(隠密)" color="#ff9999" meeting="false" start="2024-10-01" duration="2" complete="0" thirdDate="2024-09-25" thirdDate-constraint="0" expand="true"/>
             <task id="24" name="エフェクト(仮)を付ける" color="#ff9999" meeting="false" start="2024-10-08" duration="4" complete="0" thirdDate="2024-09-30" thirdDate-constraint="0" expand="true"/>
             <task id="40" name="プロトタイプの仕上げ" color="#ff9999" meeting="false" start="2024-10-08" duration="4" complete="0" thirdDate="2024-10-01" thirdDate-constraint="0" expand="true"/>
