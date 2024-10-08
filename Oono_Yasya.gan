@@ -38,7 +38,7 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="プロトタイプ" color="#ffff99" meeting="false" start="2024-09-01" duration="41" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="false"/>
-        <task id="5" name="プロトタイプ予定" color="#ffff99" meeting="false" start="2024-09-24" duration="18" complete="25" thirdDate="2024-09-24" thirdDate-constraint="0" expand="true">
+        <task id="5" name="プロトタイプ予定" color="#ffff99" meeting="false" start="2024-09-24" duration="18" complete="52" thirdDate="2024-09-24" thirdDate-constraint="0" expand="true">
             <notes>
                 <![CDATA[一応変わるだろうけど
 プロトの予定
@@ -52,24 +52,29 @@ UI関係の処理わかりにくくて頭抱えてます]]>
 UIを仮で置きます、たぶん。]]>
                 </notes>
             </task>
-            <task id="20" name="UIのバグ修正" color="#ffff99" meeting="false" start="2024-09-30" duration="5" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+            <task id="20" name="UIのバグ修正" color="#ffff99" meeting="false" start="2024-09-30" duration="5" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[・アスペクト比]]>
                 </notes>
-                <task id="21" name="UIのアスペクト比の修正" color="#ffff99" meeting="false" start="2024-09-30" duration="1" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true"/>
-                <task id="22" name="警戒度の取得" color="#ffff99" meeting="false" start="2024-10-01" duration="2" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+                <task id="21" name="UIのアスペクト比の修正" color="#ffff99" meeting="false" start="2024-09-30" duration="1" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true"/>
+                <task id="22" name="警戒度の取得" color="#ffff99" meeting="false" start="2024-10-01" duration="2" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[数値の取得
 警戒度の度合いによって表示非表示の切り替え]]>
                     </notes>
                 </task>
-                <task id="23" name="HPの修正" color="#ffff99" meeting="false" start="2024-10-03" duration="2" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+                <task id="23" name="HPの修正" color="#ffff99" meeting="false" start="2024-10-03" duration="2" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[HPの取得をできるように
 
 ...どうしよう？？？？]]>
                     </notes>
                 </task>
+            </task>
+            <task id="25" name="UI(バーサーカーゲージの修正)" color="#ffff99" meeting="false" start="2024-10-04" duration="1" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[勘違いで終わってませんでした終わらせます]]>
+                </notes>
             </task>
             <task id="24" name="ボスのアイコン表示" color="#ffff99" meeting="false" start="2024-10-05" duration="3" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
                 <notes>
