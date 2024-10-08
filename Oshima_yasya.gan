@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-09-09" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-07" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3311" locale="ja_JP">
     <description/>
     <view zooming-state="default:0" id="gantt-chart">
         <field id="tpd3" name="名前" width="200" order="0"/>
         <field id="tpd4" name="開始日" width="75" order="1"/>
         <field id="tpd5" name="終了日" width="75" order="2"/>
         <option id="filter.completedTasks" value="false"/>
-        <option id="color.recent">
-            <![CDATA[#00ff33 #ffff00 #f4f4f4 #ff3300 #ff0000]]>
-        </option>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#00ff33 #ffff00 #f4f4f4 #ff3300 #ff0000]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="名前" width="210" order="0"/>
@@ -37,30 +38,30 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="検知システム" meeting="false" start="2024-09-12" duration="4" complete="100" expand="true">
-            <task id="2" name="追跡" color="#ffff00" meeting="false" start="2024-09-12" duration="3" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" priority="2" expand="true"/>
-            <task id="1" name="視野角" color="#ffff00" meeting="false" start="2024-09-15" duration="1" complete="100" thirdDate="2024-09-15" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="0" uid="d32277605a6840098e72148370661ebb" name="検知システム" meeting="false" start="2024-09-12" duration="4" complete="100" expand="true">
+            <task id="2" uid="07562424781843b18ac401365aab8777" name="追跡" color="#ffff00" meeting="false" start="2024-09-12" duration="3" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="1" uid="c12e4fbbad514023977ba89da35fec80" name="視野角" color="#ffff00" meeting="false" start="2024-09-15" duration="1" complete="100" thirdDate="2024-09-15" thirdDate-constraint="0" priority="2" expand="true"/>
         </task>
-        <task id="3" name="警戒度" meeting="false" start="2024-09-12" duration="1" complete="0" expand="false">
-            <task id="4" name="警戒度上昇システム" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
-            <task id="5" name="警戒度減少システム" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+        <task id="3" uid="c1e9cf87c6df49d7876e526a3bb780ce" name="警戒度" meeting="false" start="2024-09-12" duration="1" complete="0" expand="false">
+            <task id="4" uid="779ab4de472b41f08552494debee83d4" name="警戒度上昇システム" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
+            <task id="5" uid="94ba0561fbb14d85bfe37db390ad5cde" name="警戒度減少システム" meeting="false" start="2024-09-12" duration="1" complete="0" expand="true"/>
         </task>
-        <task id="6" name="アニメーションシステム" color="#ffff00" meeting="false" start="2024-09-30" duration="2" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-        <task id="7" name="敵行動一覧" meeting="false" start="2024-09-12" duration="50" complete="0" expand="true">
-            <task id="9" name="接敵" color="#ffff00" meeting="false" start="2024-09-12" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-            <task id="10" name="警備" color="#ffff00" meeting="false" start="2024-09-19" duration="1" complete="100" thirdDate="2024-09-19" thirdDate-constraint="0" priority="2" expand="true"/>
-            <task id="8" name="巡回" color="#ffff00" meeting="false" start="2024-09-30" duration="4" complete="0" thirdDate="2024-09-16" thirdDate-constraint="0" priority="2" expand="true"/>
-            <task id="13" name="通常攻撃" color="#ffff00" meeting="false" start="2024-10-02" duration="2" complete="0" thirdDate="2024-09-20" thirdDate-constraint="0" priority="2" expand="true"/>
-            <task id="12" name="死ぬ" color="#ffff00" meeting="false" start="2024-10-03" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-            <task id="11" name="攻撃を受ける" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-            <task id="15" name="通常攻撃「強 」" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-            <task id="14" name="強攻撃" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-            <task id="16" name="強攻撃　2" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
-            <task id="17" name="仲間を呼ぶ" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+        <task id="6" uid="512a071a24cd4a9f910f30bee4a7caf2" name="アニメーションシステム" color="#ffff00" meeting="false" start="2024-09-30" duration="2" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+        <task id="7" uid="659204c57ee847acb3ebd795c3ae6e8d" name="敵行動一覧" meeting="false" start="2024-09-12" duration="50" complete="8" expand="true">
+            <task id="9" uid="90550a3f6cca48148e25d138486e8ca6" name="接敵" color="#ffff00" meeting="false" start="2024-09-12" duration="1" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="10" uid="783a64c3167f4532b58cd5f6f4c643df" name="警備" color="#ffff00" meeting="false" start="2024-09-19" duration="1" complete="100" thirdDate="2024-09-19" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="8" uid="2531c769e91546ddaf964059117054dc" name="巡回" color="#ffff00" meeting="false" start="2024-09-30" duration="4" complete="100" thirdDate="2024-09-16" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="13" uid="a773dfffd064436a80963cc3d7373998" name="通常攻撃" color="#ffff00" meeting="false" start="2024-10-02" duration="2" complete="100" thirdDate="2024-09-20" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="12" uid="57cc7ebbb94e4c2ab3e6f6cee90d9b0f" name="死ぬ" color="#ffff00" meeting="false" start="2024-10-03" duration="1" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="11" uid="932dae5addc54d108a390e8ecd146aab" name="攻撃を受ける" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="15" uid="088caf74ea4041328a65749617a975c6" name="通常攻撃「強 」" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="14" uid="1c220e7866d3487a9f2fbd7d70cbcfc0" name="強攻撃" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="16" uid="eb39db5173284502908fbc644c9e3c4c" name="強攻撃　2" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="17" uid="d398466ce784412d895e7fa056855d3a" name="仲間を呼ぶ" color="#00ff33" meeting="false" start="2024-10-12" duration="20" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="19" name="ステータス" meeting="false" start="2024-09-20" duration="1" complete="100" expand="true">
-            <task id="20" name="HP" color="#ffff00" meeting="false" start="2024-09-20" duration="1" complete="100" thirdDate="2024-09-20" thirdDate-constraint="0" priority="2" expand="true"/>
-            <task id="21" name="攻撃力" color="#ffff00" meeting="false" start="2024-09-20" duration="1" complete="100" thirdDate="2024-09-20" thirdDate-constraint="0" priority="2" expand="true"/>
+        <task id="19" uid="02d5fdbb920347778b24cb468f4e94d4" name="ステータス" meeting="false" start="2024-09-20" duration="1" complete="100" expand="true">
+            <task id="20" uid="24598554f36a481e8f10a2bb3a0b093a" name="HP" color="#ffff00" meeting="false" start="2024-09-20" duration="1" complete="100" thirdDate="2024-09-20" thirdDate-constraint="0" priority="2" expand="true"/>
+            <task id="21" uid="d91e6173d53e4dd4a5988f8a055c10b2" name="攻撃力" color="#ffff00" meeting="false" start="2024-09-20" duration="1" complete="100" thirdDate="2024-09-20" thirdDate-constraint="0" priority="2" expand="true"/>
         </task>
     </tasks>
     <resources/>
