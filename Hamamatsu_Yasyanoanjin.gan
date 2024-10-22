@@ -66,7 +66,7 @@
             <task id="40" name="プロトタイプの仕上げ" color="#ff9999" meeting="false" start="2024-10-08" duration="4" complete="0" thirdDate="2024-10-01" thirdDate-constraint="0" expand="true"/>
             <task id="43" name="敵が死んだ状態のままにする" color="#ff9999" meeting="false" start="2024-10-15" duration="2" complete="0" thirdDate="2024-10-10" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="1" name="アルファ" color="#33cc00" meeting="false" start="2024-10-17" duration="15" complete="2" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+        <task id="1" name="アルファ" color="#33cc00" meeting="false" start="2024-10-17" duration="15" complete="3" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
             <task id="27" name="エフェクトの変更" color="#ff9999" meeting="false" start="2024-10-17" duration="15" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[エフェクトが追加されるたびに随時変更]]>
@@ -77,7 +77,7 @@
                     <![CDATA[モーションなどの追加や調整次第演出をいじる]]>
                 </notes>
             </task>
-            <task id="33" name="ローリング" color="#ff9999" meeting="false" start="2024-10-18" duration="1" complete="50" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
+            <task id="33" name="ローリング" color="#ff9999" meeting="false" start="2024-10-18" duration="1" complete="100" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
             <task id="34" name="しゃがみ" color="#ff9999" meeting="false" start="2024-10-18" duration="1" complete="100" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
             <task id="44" name="中ボスのエフェクト探し" color="#8cb6ce" meeting="false" start="2024-10-19" duration="2" complete="0" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true"/>
             <task id="32" name="バーサーカーモードの必殺技追加" color="#ff9999" meeting="false" start="2024-10-21" duration="2" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
