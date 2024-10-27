@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-09-07" view-index="0" gantt-divider-location="308" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-19" view-index="0" gantt-divider-location="293" resource-divider-location="300" version="3.2.3230" locale="ja_JP">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="175" order="0"/>
-        <field id="tpd4" name="開始日" width="65" order="1"/>
-        <field id="tpd5" name="終了日" width="67" order="2"/>
+        <field id="tpd3" name="名前" width="157" order="0"/>
+        <field id="tpd4" name="開始日" width="59" order="1"/>
+        <field id="tpd5" name="終了日" width="61" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
-            <![CDATA[#ffff99 #0033ff #cc00ff #33cc00 #cccccc #ff6666 #ff99ff #99ff99 #99ffff]]>
+            <![CDATA[#33cc00 #cc00ff #000000 #ffff99 #0033ff #cccccc #ff6666 #ff99ff #99ff99 #99ffff]]>
         </option>
     </view>
     <view id="resource-table">
@@ -38,7 +38,7 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="プロトタイプ" color="#ffff99" meeting="false" start="2024-09-01" duration="41" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="false"/>
-        <task id="5" name="プロトタイプ予定" color="#ffff99" meeting="false" start="2024-09-24" duration="18" complete="52" thirdDate="2024-09-24" thirdDate-constraint="0" expand="true">
+        <task id="5" name="プロトタイプ予定" color="#ffff99" meeting="false" start="2024-09-24" duration="23" complete="100" thirdDate="2024-09-24" thirdDate-constraint="0" expand="true">
             <notes>
                 <![CDATA[一応変わるだろうけど
 プロトの予定
@@ -52,7 +52,7 @@ UI関係の処理わかりにくくて頭抱えてます]]>
 UIを仮で置きます、たぶん。]]>
                 </notes>
             </task>
-            <task id="20" name="UIのバグ修正" color="#ffff99" meeting="false" start="2024-09-30" duration="5" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+            <task id="20" name="UIのバグ修正" color="#ffff99" meeting="false" start="2024-09-30" duration="8" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[・アスペクト比]]>
                 </notes>
@@ -63,7 +63,7 @@ UIを仮で置きます、たぶん。]]>
 警戒度の度合いによって表示非表示の切り替え]]>
                     </notes>
                 </task>
-                <task id="23" name="HPの修正" color="#ffff99" meeting="false" start="2024-10-03" duration="2" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+                <task id="23" name="HPの修正" color="#ffff99" meeting="false" start="2024-10-03" duration="5" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[HPの取得をできるように
 
@@ -71,87 +71,203 @@ UIを仮で置きます、たぶん。]]>
                     </notes>
                 </task>
             </task>
-            <task id="25" name="UI(バーサーカーゲージの修正)" color="#ffff99" meeting="false" start="2024-10-04" duration="1" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+            <task id="25" name="UI(バーサーカーゲージの修正)" color="#ffff99" meeting="false" start="2024-10-08" duration="4" complete="100" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[勘違いで終わってませんでした終わらせます]]>
                 </notes>
             </task>
-            <task id="24" name="ボスのアイコン表示" color="#ffff99" meeting="false" start="2024-10-05" duration="3" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
-                <notes>
-                    <![CDATA[どないしよ・・・]]>
-                </notes>
-            </task>
-            <task id="10" name="サウンドの処理について" color="#cc00ff" meeting="false" start="2024-10-08" duration="4" complete="0" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true">
+            <task id="10" name="サウンドの処理について" color="#cc00ff" meeting="false" start="2024-10-11" duration="6" complete="100" thirdDate="2024-09-17" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[サウンドってどうやって鳴らすんですか？？？？？？
 切実に知りたいです]]>
                 </notes>
             </task>
         </task>
-        <task id="1" name="アルファ" color="#99ff99" meeting="false" start="2024-10-04" duration="19" complete="0" thirdDate="2024-08-29" thirdDate-constraint="0" expand="true"/>
-        <task id="12" name="アルファの予定" color="#99ff99" meeting="false" start="2024-10-04" duration="19" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
-            <task id="13" name="エフェクト関係 ※" color="#0033ff" meeting="false" start="2024-10-04" duration="15" complete="0" thirdDate="2024-10-01" thirdDate-constraint="0" expand="false">
-                <notes>
-                    <![CDATA[エフェクトでどれくらい時間がかかるのかがいまだわかっていないので
-ふわっとしか書いてません。
-
-エフェクト触って時間が分かり次第細かく書きます許してください]]>
-                </notes>
-                <task id="14" name="中ボスその1" color="#0033ff" meeting="false" start="2024-10-04" duration="4" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+        <task id="1" name="アルファ" color="#99ff99" meeting="false" start="2024-10-17" duration="21" complete="0" thirdDate="2024-08-29" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="アルファの予定" color="#99ff99" meeting="false" start="2024-10-17" duration="21" complete="43" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+            <task id="26" name="サウンド関連" color="#cc00ff" meeting="false" start="2024-10-17" duration="10" complete="100" thirdDate="2024-10-01" thirdDate-constraint="0" expand="false">
+                <task id="27" name="サウンドを鳴らす" color="#cc00ff" meeting="false" start="2024-10-17" duration="1" complete="100" thirdDate="2024-10-09" thirdDate-constraint="0" expand="true">
                     <notes>
-                        <![CDATA[通常攻撃 弱
-通常攻撃 強
-強攻撃
-
-氷と水モチーフだから寒色系でまとめる]]>
+                        <![CDATA[SE、BGMを鳴らす処理の反映]]>
                     </notes>
                 </task>
-                <task id="15" name="中ボスその2" color="#0033ff" meeting="false" start="2024-10-08" duration="5" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                <task id="28" name="音量調節画面の実装" color="#cc00ff" meeting="false" start="2024-10-18" duration="1" complete="100" thirdDate="2024-10-17" thirdDate-constraint="0" expand="true">
                     <notes>
-                        <![CDATA[通常攻撃 弱
-通常攻撃 強
-強攻撃
+                        <![CDATA[設定画面の実装
 
-土と雷モチーフだから黄色系でまとめる
-エージェントくんです]]>
+！画面を開くと操作を受け付けなくなるバグ発生
+
+↑解決した
+PCのみでしか操作できないけど開く閉じるをすることは可能]]>
                     </notes>
                 </task>
-                <task id="16" name="ボス" color="#0033ff" meeting="false" start="2024-10-13" duration="6" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                <task id="29" name="バグ取り" color="#cc00ff" meeting="false" start="2024-10-19" duration="2" complete="100" thirdDate="2024-10-18" thirdDate-constraint="0" expand="true">
                     <notes>
-                        <![CDATA[通常攻撃 弱
-通常攻撃 強
-強攻撃
-（強攻撃がもういっこある 仲間の魔法陣はある）
+                        <![CDATA[ポーズ中（設定画面を開くと音が止まる）
+＆ボタン入力を受け付けなくなる
 
-炎系モチーフだから暖色系でまとめる]]>
+修正済み]]>
+                    </notes>
+                </task>
+                <task id="30" name="音量調節の実装" color="#cc00ff" meeting="false" start="2024-10-21" duration="2" complete="100" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[音量調節の実装
+
+またボタンを受け付けなくなった
+
+↑解決した]]>
+                    </notes>
+                </task>
+                <task id="31" name="音量調節を画面に反映させる" color="#cc00ff" meeting="false" start="2024-10-23" duration="2" complete="100" thirdDate="2024-10-21" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[音量ゲージを現在の音量と連動させる]]>
+                    </notes>
+                </task>
+                <task id="32" name="音量の保存" color="#cc00ff" meeting="false" start="2024-10-24" duration="3" complete="100" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[音量をゲームが終了しても反映されたままにしたい
+
+CSVファイルの読み込みはできた
+けど書き込みがBPからだとできないそうなのでやめました
+
+別方法で実装中
+読み込みまではできてる
+
+保存の実装はまだしてないのでします
+
+これでうまくいかなかったら諦めます
+
+たぶんできました]]>
                     </notes>
                 </task>
             </task>
-            <task id="17" name="UIの配置 ※" color="#33cc00" meeting="false" start="2024-10-19" duration="4" complete="0" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
+            <task id="17" name="エネミーUI" color="#33cc00" meeting="false" start="2024-10-27" duration="3" complete="16" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[置けてない分のUIを置きます
 演出は...ベータでやります、たぶん。
 
 アルファで配置が終わってたらこのタスクは別のタスクになる予定です]]>
                 </notes>
+                <task id="33" name="ボスHPUI配置" color="#33cc00" meeting="false" start="2024-10-27" duration="1" complete="80" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[孫悟空太郎のHPの配置
+処理は置いておこう
+
+サイズ感の調整は終わってない
+元は作ったから中ボスもコピーで作れる縦鼻はしてある]]>
+                    </notes>
+                </task>
+                <task id="34" name="中ボス1HPUI配置" color="#33cc00" meeting="false" start="2024-10-28" duration="1" complete="0" thirdDate="2024-10-26" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[氷丸のHPの配置
+処理は置いておこう]]>
+                    </notes>
+                </task>
+                <task id="35" name="中ボス2HPUI配置" color="#33cc00" meeting="false" start="2024-10-28" duration="1" complete="0" thirdDate="2024-10-26" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[エージェントのHPの配置
+処理は置いておこう]]>
+                    </notes>
+                </task>
+                <task id="36" name="HPを減らす処理実装" color="#33cc00" meeting="false" start="2024-10-28" duration="2" complete="0" thirdDate="2024-10-26" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[てきのHP を減らす処理
+できたらここで演出ちょっと入れたい願望はある]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="42" name="ポーズ画面の実装" color="#33cc00" meeting="false" start="2024-10-30" duration="1" complete="0" thirdDate="2024-10-17" thirdDate-constraint="0" priority="4" expand="true">
+                <notes>
+                    <![CDATA[そういえばポーズ作ってない やっべ]]>
+                </notes>
+            </task>
+            <task id="37" name="タイトル画面" color="#33cc00" meeting="false" start="2024-10-30" duration="1" complete="0" thirdDate="2024-10-17" thirdDate-constraint="0" expand="true">
+                <task id="39" name="タイトルUI画面" color="#33cc00" meeting="false" start="2024-10-30" duration="1" complete="0" thirdDate="2024-10-28" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[とりあえず背景は置いといてUI配置します（配置だけ）]]>
+                    </notes>
+                </task>
+                <task id="41" name="アチーブと設定（音）を開く処理" color="#33cc00" meeting="false" start="2024-10-30" duration="1" complete="0" thirdDate="2024-10-28" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[とりあえず背景は置いといてUI配置します（配置だけ）]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="38" name="リザルト画面" color="#33cc00" meeting="false" start="2024-10-31" duration="1" complete="0" thirdDate="2024-10-28" thirdDate-constraint="0" expand="true">
+                <task id="40" name="リザルトUI画面" color="#33cc00" meeting="false" start="2024-10-31" duration="1" complete="0" thirdDate="2024-10-28" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[とりあえず背景は置いといてUI配置します（配置だけ）]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="43" name="アチーブ関係" color="#33cc00" meeting="false" start="2024-11-01" duration="6" complete="0" thirdDate="2024-10-31" thirdDate-constraint="0" expand="true">
+                <task id="44" name="アチーブUI配置" color="#33cc00" meeting="false" start="2024-11-01" duration="2" complete="0" thirdDate="2024-10-31" thirdDate-constraint="0" expand="true"/>
+                <task id="45" name="アチーブデータ読み込みなどの実装" color="#33cc00" meeting="false" start="2024-11-03" duration="4" complete="0" thirdDate="2024-10-31" thirdDate-constraint="0" expand="true">
+                    <notes>
+                        <![CDATA[ふわっとしててごめんなさい
+必要なことを後で細分化して書きます、多分]]>
+                    </notes>
+                </task>
+            </task>
+            <task id="24" name="ボスのアイコン表示" color="#ffff99" meeting="false" start="2024-11-06" duration="1" complete="0" thirdDate="2024-09-07" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[どないしよ・・・]]>
+                </notes>
             </task>
         </task>
-        <task id="2" name="ベータ" color="#99ffff" meeting="false" start="2024-10-23" duration="28" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="true"/>
-        <task id="18" name="ベータの予定" color="#99ffff" meeting="false" start="2024-10-23" duration="6" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true">
+        <task id="2" name="ベータ" color="#99ffff" meeting="false" start="2024-11-07" duration="32" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="true"/>
+        <task id="18" name="ベータの予定" color="#99ffff" meeting="false" start="2024-11-07" duration="32" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true">
             <notes>
                 <![CDATA[まだふわっとしかわからないせいで何も書けない
 とりあえずエフェクトの強化...とUIの演出の強化をするつもりです]]>
             </notes>
-            <task id="19" name="UIの演出" color="#33cc00" meeting="false" start="2024-10-23" duration="6" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true">
+            <task id="19" name="UIの演出" color="#33cc00" meeting="false" start="2024-11-07" duration="32" complete="0" thirdDate="2024-10-23" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[ゲージをきらきらさせたり、とか？
 今のとこあんまり考えついてないけど]]>
                 </notes>
             </task>
         </task>
-        <task id="8" name="マスター" color="#cccccc" meeting="false" start="2024-11-20" duration="5" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="true"/>
-        <task id="3" name="リファクタリング" color="#ff99ff" meeting="false" start="2024-11-25" duration="4" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="false"/>
-        <task id="4" name="提出日" color="#ff6666" meeting="false" start="2024-11-29" duration="1" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="マスター" color="#cccccc" meeting="false" start="2024-12-09" duration="7" complete="0" thirdDate="2024-09-23" thirdDate-constraint="0" expand="true"/>
+        <task id="3" name="リファクタリング" color="#ff99ff" meeting="false" start="2024-12-16" duration="4" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="false"/>
+        <task id="4" name="提出日" color="#ff6666" meeting="false" start="2024-12-20" duration="1" complete="0" thirdDate="2024-09-04" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="エフェクト関係 ※" color="#000000" meeting="false" start="2024-10-04" duration="15" complete="0" thirdDate="2024-10-01" thirdDate-constraint="0" expand="false">
+            <notes>
+                <![CDATA[エフェクトでどれくらい時間がかかるのかがいまだわかっていないので
+ふわっとしか書いてません。
+
+エフェクト触って時間が分かり次第細かく書きます許してください]]>
+            </notes>
+            <task id="14" name="中ボスその1" color="#0033ff" meeting="false" start="2024-10-04" duration="4" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[通常攻撃 弱
+通常攻撃 強
+強攻撃
+
+氷と水モチーフだから寒色系でまとめる]]>
+                </notes>
+            </task>
+            <task id="15" name="中ボスその2" color="#0033ff" meeting="false" start="2024-10-08" duration="5" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[通常攻撃 弱
+通常攻撃 強
+強攻撃
+
+土と雷モチーフだから黄色系でまとめる
+エージェントくんです]]>
+                </notes>
+            </task>
+            <task id="16" name="ボス" color="#0033ff" meeting="false" start="2024-10-13" duration="6" complete="0" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+                <notes>
+                    <![CDATA[通常攻撃 弱
+通常攻撃 強
+強攻撃
+（強攻撃がもういっこある 仲間の魔法陣はある）
+
+炎系モチーフだから暖色系でまとめる]]>
+                </notes>
+            </task>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
