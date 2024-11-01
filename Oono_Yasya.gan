@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-19" view-index="0" gantt-divider-location="293" resource-divider-location="300" version="3.2.3230" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-19" view-index="0" gantt-divider-location="278" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:3" id="gantt-chart">
-        <field id="tpd3" name="名前" width="157" order="0"/>
-        <field id="tpd4" name="開始日" width="59" order="1"/>
-        <field id="tpd5" name="終了日" width="61" order="2"/>
+        <field id="tpd3" name="名前" width="148" order="0"/>
+        <field id="tpd4" name="開始日" width="56" order="1"/>
+        <field id="tpd5" name="終了日" width="58" order="2"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="color.recent">
             <![CDATA[#33cc00 #cc00ff #000000 #ffff99 #0033ff #cccccc #ff6666 #ff99ff #99ff99 #99ffff]]>
@@ -84,7 +84,7 @@ UIを仮で置きます、たぶん。]]>
             </task>
         </task>
         <task id="1" name="アルファ" color="#99ff99" meeting="false" start="2024-10-17" duration="21" complete="0" thirdDate="2024-08-29" thirdDate-constraint="0" expand="true"/>
-        <task id="12" name="アルファの予定" color="#99ff99" meeting="false" start="2024-10-17" duration="21" complete="43" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
+        <task id="12" name="アルファの予定" color="#99ff99" meeting="false" start="2024-10-17" duration="21" complete="51" thirdDate="2024-10-04" thirdDate-constraint="0" expand="true">
             <task id="26" name="サウンド関連" color="#cc00ff" meeting="false" start="2024-10-17" duration="10" complete="100" thirdDate="2024-10-01" thirdDate-constraint="0" expand="false">
                 <task id="27" name="サウンドを鳴らす" color="#cc00ff" meeting="false" start="2024-10-17" duration="1" complete="100" thirdDate="2024-10-09" thirdDate-constraint="0" expand="true">
                     <notes>
@@ -141,29 +141,29 @@ CSVファイルの読み込みはできた
                     </notes>
                 </task>
             </task>
-            <task id="17" name="エネミーUI" color="#33cc00" meeting="false" start="2024-10-27" duration="3" complete="16" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
+            <task id="17" name="エネミーUI" color="#33cc00" meeting="false" start="2024-10-27" duration="3" complete="60" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[置けてない分のUIを置きます
 演出は...ベータでやります、たぶん。
 
 アルファで配置が終わってたらこのタスクは別のタスクになる予定です]]>
                 </notes>
-                <task id="33" name="ボスHPUI配置" color="#33cc00" meeting="false" start="2024-10-27" duration="1" complete="80" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
+                <task id="33" name="ボスHPUI配置" color="#33cc00" meeting="false" start="2024-10-27" duration="1" complete="100" thirdDate="2024-10-19" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[孫悟空太郎のHPの配置
 処理は置いておこう
 
 サイズ感の調整は終わってない
-元は作ったから中ボスもコピーで作れる縦鼻はしてある]]>
+元は作ったから中ボスもコピーで作れるはず]]>
                     </notes>
                 </task>
-                <task id="34" name="中ボス1HPUI配置" color="#33cc00" meeting="false" start="2024-10-28" duration="1" complete="0" thirdDate="2024-10-26" thirdDate-constraint="0" expand="true">
+                <task id="34" name="中ボス1HPUI配置" color="#33cc00" meeting="false" start="2024-10-28" duration="1" complete="100" thirdDate="2024-10-26" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[氷丸のHPの配置
 処理は置いておこう]]>
                     </notes>
                 </task>
-                <task id="35" name="中ボス2HPUI配置" color="#33cc00" meeting="false" start="2024-10-28" duration="1" complete="0" thirdDate="2024-10-26" thirdDate-constraint="0" expand="true">
+                <task id="35" name="中ボス2HPUI配置" color="#33cc00" meeting="false" start="2024-10-28" duration="1" complete="100" thirdDate="2024-10-26" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[エージェントのHPの配置
 処理は置いておこう]]>
