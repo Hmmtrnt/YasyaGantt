@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-07" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-10" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="ja_JP">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="名前" width="200" order="0"/>
@@ -37,7 +37,7 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="プロトタイプ" color="#ffff66" meeting="false" start="2024-09-12" duration="30" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
+        <task id="0" name="プロトタイプ" color="#ffff66" meeting="false" start="2024-09-12" duration="30" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="false">
             <task id="9" name="スマブラの撃墜エフェクト作る" color="#8cb6ce" meeting="false" start="2024-09-12" duration="4" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true">
                 <task id="7" name="素材を作る" color="#8cb6ce" meeting="false" start="2024-09-12" duration="1" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
                 <task id="8" name="実装する" color="#8cb6ce" meeting="false" start="2024-09-13" duration="3" complete="100" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
@@ -97,52 +97,57 @@
             <task id="25" name="バーサーカーモード遷移時のエフェクト制作" color="#8cb6ce" meeting="false" start="2024-10-10" duration="2" complete="100" thirdDate="2024-10-09" thirdDate-constraint="0" expand="true"/>
             <task id="12" name="プロト期限" meeting="false" start="2024-10-11" duration="1" complete="100" expand="true"/>
         </task>
-        <task id="28" name="アルファ" color="#ff6666" meeting="false" start="2024-10-14" duration="18" complete="25" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true">
-            <task id="29" name="バーサーカーモード１のスラッシュエフェクト制作" color="#8cb6ce" meeting="false" start="2024-10-14" duration="4" complete="85" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true">
+        <task id="28" name="アルファ" color="#ff6666" meeting="false" start="2024-10-14" duration="24" complete="96" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true">
+            <task id="29" name="バーサーカーモード１のスラッシュエフェクト制作" color="#8cb6ce" meeting="false" start="2024-10-14" duration="5" complete="100" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[・通常攻撃にプラスアルファを追加する形
 例：火の粉の表現など]]>
                 </notes>
-                <task id="48" name="素材作成" color="#8cb6ce" meeting="false" start="2024-10-14" duration="3" complete="100" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true">
+                <task id="48" name="素材作成" color="#8cb6ce" meeting="false" start="2024-10-14" duration="4" complete="100" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[Texture,Mesh,マテリアルなど]]>
                     </notes>
                 </task>
-                <task id="47" name="Niagara作成" color="#8cb6ce" meeting="false" start="2024-10-14" duration="3" complete="100" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true"/>
-                <task id="46" name="シーンに挿入" color="#8cb6ce" meeting="false" start="2024-10-17" duration="1" complete="0" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true"/>
+                <task id="47" name="Niagara作成" color="#8cb6ce" meeting="false" start="2024-10-14" duration="4" complete="100" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true"/>
+                <task id="46" name="シーンに挿入" color="#8cb6ce" meeting="false" start="2024-10-18" duration="1" complete="100" thirdDate="2024-10-12" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="49" name="バーサーカーモード２のスラッシュエフェクト制作" color="#8cb6ce" meeting="false" start="2024-10-20" duration="4" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
+            <task id="49" name="バーサーカーモード２のスラッシュエフェクト制作" color="#8cb6ce" meeting="false" start="2024-10-21" duration="5" complete="100" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[・バーサーカーモード１よりも派手に
 →竜巻アセットを使う(仕様書参考)
 どう派手にするかはその時考える
 ]]>
                 </notes>
-                <task id="50" name="素材作成" color="#8cb6ce" meeting="false" start="2024-10-20" duration="3" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
+                <task id="50" name="素材作成" color="#8cb6ce" meeting="false" start="2024-10-21" duration="4" complete="100" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true">
                     <notes>
                         <![CDATA[Texture,Mesh,マテリアルなど]]>
                     </notes>
                 </task>
-                <task id="51" name="Niagara作成" color="#8cb6ce" meeting="false" start="2024-10-20" duration="3" complete="0" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
-                <task id="52" name="シーンに挿入" color="#8cb6ce" meeting="false" start="2024-10-23" duration="1" complete="0" thirdDate="2024-10-17" thirdDate-constraint="0" expand="true"/>
+                <task id="51" name="Niagara作成" color="#8cb6ce" meeting="false" start="2024-10-21" duration="4" complete="100" thirdDate="2024-10-14" thirdDate-constraint="0" expand="true"/>
+                <task id="52" name="シーンに挿入" color="#8cb6ce" meeting="false" start="2024-10-25" duration="1" complete="100" thirdDate="2024-10-17" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="53" name="バーサーカーモード３のスラッシュエフェクト制作" color="#8cb6ce" meeting="false" start="2024-10-26" duration="4" complete="0" thirdDate="2024-10-18" thirdDate-constraint="0" expand="true">
+            <task id="53" name="バーサーカーモード３のスラッシュエフェクト制作" color="#8cb6ce" meeting="false" start="2024-10-28" duration="5" complete="100" thirdDate="2024-10-18" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[・バーサーカーモード２よりも派手に
 ・移動する際に、線状にエフェクトを出す(仕様書参考)
 
 少し特殊な処理になるため長く時間をとる]]>
                 </notes>
-                <task id="54" name="素材作成" color="#8cb6ce" meeting="false" start="2024-10-26" duration="3" complete="0" expand="true">
+                <task id="54" name="素材作成" color="#8cb6ce" meeting="false" start="2024-10-28" duration="4" complete="100" expand="true">
                     <notes>
                         <![CDATA[Texture,Mesh,マテリアルなど]]>
                     </notes>
                 </task>
-                <task id="55" name="Niagara作成" color="#8cb6ce" meeting="false" start="2024-10-26" duration="3" complete="0" expand="true"/>
-                <task id="56" name="シーンに挿入" color="#8cb6ce" meeting="false" start="2024-10-29" duration="1" complete="0" expand="true"/>
+                <task id="55" name="Niagara作成" color="#8cb6ce" meeting="false" start="2024-10-28" duration="4" complete="100" expand="true"/>
+                <task id="56" name="シーンに挿入" color="#8cb6ce" meeting="false" start="2024-11-01" duration="1" complete="100" expand="true"/>
             </task>
-            <task id="57" name="猶予期間" color="#8cb6ce" meeting="false" start="2024-10-30" duration="2" complete="0" thirdDate="2024-10-05" thirdDate-constraint="0" expand="true"/>
-            <task id="30" name="期限" color="#8cb6ce" meeting="false" start="2024-10-31" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+            <task id="30" name="期限" color="#8cb6ce" meeting="false" start="2024-11-06" duration="1" complete="0" thirdDate="2024-09-12" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="57" name="ボス２のエフェクト作成" color="#8cb6ce" meeting="false" start="2024-11-05" duration="5" complete="45" thirdDate="2024-10-05" thirdDate-constraint="0" expand="false">
+            <task id="58" name="通常攻撃(弱)" color="#8cb6ce" meeting="false" start="2024-11-05" duration="2" complete="100" thirdDate="2024-10-10" thirdDate-constraint="0" expand="true"/>
+            <task id="62" name="通常攻撃(強)" color="#8cb6ce" meeting="false" start="2024-11-06" duration="2" complete="80" thirdDate="2024-10-10" thirdDate-constraint="0" expand="true"/>
+            <task id="61" name="強攻撃" color="#8cb6ce" meeting="false" start="2024-11-07" duration="2" complete="0" thirdDate="2024-10-10" thirdDate-constraint="0" expand="true"/>
+            <task id="60" name="ギミック攻撃" color="#8cb6ce" meeting="false" start="2024-11-08" duration="2" complete="0" thirdDate="2024-10-10" thirdDate-constraint="0" expand="true"/>
         </task>
     </tasks>
     <resources/>
